@@ -31,7 +31,7 @@ after that just run the shell_train.py
 
 The core of our code is sourced from the repositories listed below.
 <ul>
-  <li><a href='https://github.com/KaiyangZhou/DG-research-pytorch'>DDAIG</a> "Domain Generalization by Solving Jigsaw Puzzles", CVPR 2019 paper. </ul></li>
+  <li><a href='https://github.com/KaiyangZhou/DG-research-pytorch'>DDAIG</a> "Domain Generalization by Solving Jigsaw Puzzles", CVPR 2019 paper.</li>
   <li><a href='https://github.com/MediaBrain-SJTU/FACT'>FACT</a>  "A Fourier-based Framework for Domain Generalization", CVPR 2021 paper. </li>
 </ul>
 We express our gratitude to the authors for making their codes publicly available. We also encourage acknowledging their contributions by citing their publications.
