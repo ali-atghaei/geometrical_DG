@@ -25,7 +25,7 @@ Just write the name of target domain in shell_test.py file and just run it.
 In <code>data/DGDataLoader.py</code> set the <code>available_datasets =  pacs_dataset</code>.
 In <code>data/datalists</code> for each domain, you should have a <code>suffix_train.txt</code> and <code>suffix_val.txt</code> and <code>suffix_test.txt</code> like the section above. 
 In the <code>shell_train.py</code> file write the domain names of dataset and write the target domain name. 
-after that just run the <code>shell_train.py</code> 
+After that just run the <code>shell_train.py</code> 
 
 ## Acknowledgements
 
