@@ -6,4 +6,6 @@ This repo provides a demo for our paper "Domain Generalization via Geometric Ada
 #requirement 
 
 python 3.8 
+
 pytorch 1.1 
+
