@@ -323,10 +323,10 @@ class Trainer:
 														  weight=self.config["lam_const"],
 														  rampup_length=self.config["warmup_epoch"],
 														  rampup_type=self.config["warmup_type"])
-			cont_loss = 2 *similarity_of_different_class - 1*similarity_of_same_class 
+			cont_loss = 5 *similarity_of_different_class - 1*similarity_of_same_class 
 			
 			total_loss = 0.9 * loss_cls + 0.9 * loss_aug + 0.25*difference +\
-							0.025*cont_loss + 0.01*mean_entropy_all  
+							0.1*cont_loss + 0.01*mean_entropy_all  
 							
 			
 			loss_dict['mandif']=difference
