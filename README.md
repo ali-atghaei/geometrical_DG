@@ -1,4 +1,4 @@
-# geometrical_DG
+# Geometrical_DG
 Domain Generalization via Geometric Adaptation over Augmented Data
 
 This repo provides a demo for our paper "Domain Generalization via Geometric Adaptation over Augmented Data" on the PACS or any other mentioned dataset.
@@ -9,7 +9,7 @@ python 3.8
 
 pytorch 1.1 
 
-#Test 
+## Test 
 
 For running the evaluation code, please download the PACS dataset from <a href='http://www.eecs.qmul.ac.uk/~dl307/project_iccv2017'>pacs download</a>. Then update the files with suffix _test.txt in data/datalists for each domain, following styles below:
 <code>
@@ -21,7 +21,7 @@ For running the evaluation code, please download the PACS dataset from <a href='
 Just write the name of target domain in shell_test.py file and just run it.
 
 
-#Train from scratch 
+## Train from scratch 
 
 In data/datalists for each domain, you should have a suffix_train.txt and suffix_val.txt and suffix_test.txt like the section above. 
 In the shell_train.py file write the domain names of dataset and write the target domain name. 
