@@ -10,7 +10,7 @@ teacher_momentum = 0.9995   # momentum for mean teacher
 lam_const = 2.0    # loss weight for consistency loss
 T = 10.0
 
-num_classes = 65 #5vlcs#8pacs#65officehome#10digitsdg
+num_classes = 8 #5vlcs#8pacs#65officehome#10digitsdg
 
 config["batch_size"] = batch_size
 config["epoch"] = epoch
@@ -28,7 +28,7 @@ data_opt = {
     "use_crop": True,
     "jitter": 0.4,
     "from_domain": "all",
-    "alpha": 0.2,
+    "alpha": 1.0,
 }
 
 config["data_opt"] = data_opt
