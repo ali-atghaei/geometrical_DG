@@ -3,7 +3,7 @@ Domain Generalization via Geometric Adaptation over Augmented Data
 
 This repo provides a demo for our paper "Domain Generalization via Geometric Adaptation over Augmented Data" on the PACS or any other mentioned dataset.
 
-## Requirement 
+## Requirements 
 
 python 3.8 
 
