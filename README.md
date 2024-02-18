@@ -27,5 +27,11 @@ In data/datalists for each domain, you should have a suffix_train.txt and suffix
 In the shell_train.py file write the domain names of dataset and write the target domain name. 
 after that just run the shell_train.py 
 
+##Acknowledgements
 
+The core of our code is sourced from the repositories listed below.
+
+<a href='https://github.com/KaiyangZhou/DG-research-pytorch'>DDAIG</a> "Domain Generalization by Solving Jigsaw Puzzles", CVPR 2019
+
+<a href='https://github.com/MediaBrain-SJTU/FACT'>FACT</a> CVPR 2021 paper "A Fourier-based Framework for Domain Generalization"
 
