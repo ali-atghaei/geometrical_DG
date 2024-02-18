@@ -113,7 +113,7 @@ def get_test_loader(target=None, batch_size=64, image_size=224, args=None, confi
     else:
         data_config = None
     data_folder = get_datalists_folder(args)
-    path = os.path.join(data_folder, '%s_test_all.txt' % target) #all
+    path = os.path.join(data_folder, '%s_test.txt' % target) #_all
     test_dataset = get_dataset(path=path, train=False, image_size=image_size, config=data_config)
     dataset = ConcatDataset([test_dataset])
     loader = DataLoader(dataset, batch_size=batch_size, shuffle=False, num_workers=2, pin_memory=False)
